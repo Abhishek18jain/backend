@@ -24,6 +24,7 @@ app.use("/api/text", textRoutes);
 app.use("/api/image", imageRoutes);
 app.use("/api/source", sourceRoutes);
 
+
 // HEALTH CHECK
 app.get("/", (req, res) => {
     res.json({ status: "Backend running" });
