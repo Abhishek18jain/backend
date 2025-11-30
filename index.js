@@ -12,7 +12,7 @@ const app = express();
 
 // ----- CORS FIX (DO NOT MODIFY) -----
 app.use(cors());
-// app.options("*", cors());
+
 
 // ----- BODY + FILE PARSING (ORDER MAT BIGAARNA) -----
 app.use(express.json());
