@@ -21,4 +21,4 @@ app.use("/api/text", textRoutes);
 app.use("/api/image", imageRoutes);
 app.use("/api/source", sourceRoutes);
 
-app.listen(PORT, () => console.log("Server running on port ${PORT}"));
+app.listen(PORT, () => console.log("Server running on port",  PORT));
